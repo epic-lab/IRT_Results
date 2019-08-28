@@ -1,5 +1,5 @@
 # IRT_Results
-#The problem with analyzing all the factors together is that in the "GRM Function" assumes that all of the #items on the #measure are assessing the same underlying construct - and that this construct can be #estimated by averaging across all of the items within the questionnaire. Thus, you are using “ sexual #anxiety” items to estimate “sexual responsibility”, “sexual responsibility” items to estimate “sexual #competence”, and so on. A better practice might be to evaluate the items associated with each of the four #scales, and check to see how well they predict the scale with which they are expected to be associated.
+#The problem with analyzing all the factors together is that in the "GRM Function" assumes that all of the items on the #measure are assessing the same underlying construct - and that this construct can be #estimated by averaging across all of #the items within the questionnaire. Thus, you are using “ sexual #anxiety” items to estimate “sexual responsibility”, #“sexual responsibility” items to estimate “sexual #competence”, and so on. A better practice might be to evaluate the items #associated with each of the four #scales, and check to see how well they predict the scale with which they are expected to #be associated.
 
 ###Sexual Anxiety IRT 
 
@@ -24,7 +24,7 @@ anova(fit.1,fit.2)
 
 
 
-#Plot item response categorical curve 
+#Plot each items' response categorical curve 
 #An item is better at discriminating between individuals when the curves are peaked and dispersed across all levels of the #latent trait. For example, an item with high discrimination would have 6 peaks dispersed from low levels of the latent #trait to high levels of the latent trait. 
 
 fit.AnxietySF<- grm(AnxietySF, constrained = FALSE)
